@@ -1,0 +1,47 @@
+ html {
+  box-sizing: border-box;
+  font-style: "Open Sans", normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+margin: 0;
+}
+
+div img.image-container {
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-title {
+  font-style: "Open Sans", normal;
+  text-align: left;
+  display: block;
+  font-size: 4rem;
+  padding: 0 2;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.banner p {
+  font-size: 2rem;
+  font-style: italic;
+}
