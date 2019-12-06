@@ -33,7 +33,7 @@ div img.image-container {
 
 .banner-title {
   margin: 0;
-  font-family: "Open Sans" bold, sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: left;
   display: block;
   font-size: 4rem;
