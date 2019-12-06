@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -36,20 +36,16 @@ body {
   line-height: 1.4;
   margin: 0;
   margin-bottom: 1rem;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
   font-size: 4rem;
-  color: #fff;
-
 }
 
-.banner p {
+.banner-desc {
   font-size: 2rem;
   font-style: italic;
-  text-align: left;
   margin: 0;
 }
 
 .banner-title span {
   background-color: rgba(0, 0, 0, .5);
+  color: #fff;
 }
