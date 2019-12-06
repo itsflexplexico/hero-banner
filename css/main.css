@@ -1,6 +1,6 @@
- html {
+html {
   box-sizing: border-box;
-  font-style: "Open Sans", normal;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -8,11 +8,12 @@
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 div img.image-container {
-  height: 50%;
+  max-height: 500px;
+  min-width: 50em;
   position: relative;
   overflow: hidden;
 }
@@ -32,11 +33,10 @@ div img.image-container {
 }
 
 .banner-title {
-  font-style: "Open Sans", normal;
+  font-family: "Open Sans", sans-serif;
   text-align: left;
   display: block;
   font-size: 4rem;
-  padding: 0 2;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
 }
